@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jardesc>
+    <jar path="Lib/cse461ExtraCode.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/ConsoleApps/makeSolutionJar.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" mainClassHandleIdentifier="=Testing/src&lt;edu.uw.cs.cse461.testing.jaradmin{Main.java[Main" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <file path="/ConsoleApps/.project"/>
+        <javaElement handleIdentifier="=ConsoleApps/src&lt;edu.uw.cs.cse461.consoleapps.solution"/>
+        <javaElement handleIdentifier="=Services/src&lt;edu.uw.cs.cse461.service.solution"/>
+        <file path="/ConsoleApps/.classpath"/>
+        <javaElement handleIdentifier="=ConsoleApps/src&lt;edu.uw.cs.cse461.consoleapps.test"/>
+        <javaElement handleIdentifier="=Net/src&lt;edu.uw.cs.cse461.net.rpc.solution"/>
+        <javaElement handleIdentifier="=Net/src&lt;edu.uw.cs.cse461.net.tcpmessagehandler.solution"/>
+        <javaElement handleIdentifier="=Net/src&lt;edu.uw.cs.cse461.net.ddns.solution"/>
+        <file path="/ConsoleApps/fatjar.xml"/>
+        <javaElement handleIdentifier="=Testing/src"/>
+        <file path="/ConsoleApps/.fatjar"/>
+    </selectedElements>
+</jardesc>

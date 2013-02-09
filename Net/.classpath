@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="httpdserviceSource"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Lib/commons-cli-1.2.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/utilConsoleOnly"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/util"/>
+	<classpathentry kind="lib" path="/Lib/org.json.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

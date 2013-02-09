@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project ConsoleApps with Jar-in-Jar Loader">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="/home/zahorjan/snetProject/master/solutionFiles/ConsoleApps/ConsoleApps.jar">
+            <manifest>
+                <attribute name="Main-Class" value="org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader"/>
+                <attribute name="Rsrc-Main-Class" value="edu.uw.cs.cse461.consoleapps.infrastructure.ConsoleStart"/>
+                <attribute name="Class-Path" value="."/>
+                <attribute name="Rsrc-Class-Path" value="./ commons-cli-1.2.jar org.json.jar sqlite4java.jar"/>
+            </manifest>
+            <zipfileset src="jar-in-jar-loader.zip"/>
+            <fileset dir="/home/zahorjan/snetProject/master/solutionFiles/Testing/bin"/>
+            <fileset dir="/home/zahorjan/snetProject/master/solutionFiles/Net/bin"/>
+            <fileset dir="/home/zahorjan/snetProject/master/solutionFiles/utilConsoleOnly/bin"/>
+            <fileset dir="/home/zahorjan/snetProject/master/solutionFiles/util/bin"/>
+            <fileset dir="/home/zahorjan/snetProject/master/solutionFiles/DB461/bin"/>
+            <fileset dir="/home/zahorjan/snetProject/master/solutionFiles/DB461ConsoleOnly/bin"/>
+            <fileset dir="/home/zahorjan/snetProject/master/solutionFiles/ConsoleApps/bin"/>
+            <fileset dir="/home/zahorjan/snetProject/master/solutionFiles/SNet/bin"/>
+            <fileset dir="/home/zahorjan/snetProject/master/solutionFiles/NetConsoleOnly/bin"/>
+            <fileset dir="/home/zahorjan/snetProject/master/solutionFiles/Services/bin"/>
+            <zipfileset dir="/home/zahorjan/snetProject/master/solutionFiles/Lib" includes="commons-cli-1.2.jar"/>
+            <zipfileset dir="/home/zahorjan/snetProject/master/solutionFiles/Lib" includes="org.json.jar"/>
+            <zipfileset dir="/home/zahorjan/snetProject/master/solutionFiles/Lib/sqlite4java-282" includes="sqlite4java.jar"/>
+        </jar>
+    </target>
+</project>
